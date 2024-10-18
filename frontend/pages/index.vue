@@ -9,6 +9,7 @@
           v-model="domain"
           placeholder="Enter domain name"
           class="flex-grow border border-gray-300 rounded-l-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
+          @keyup.enter="getWhoisInfo"
         />
         <button
           @click="getWhoisInfo"
