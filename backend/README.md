@@ -18,7 +18,8 @@ npm install
 npm run dev
 ```
 
-Open:
+## Server
+
 ```
 http://localhost:3000
 ```
